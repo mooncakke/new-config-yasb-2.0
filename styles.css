@@ -47,7 +47,7 @@
 .yasb-bar {
 	padding: 0 8px;
 	margin: 0;
-	background-color: #1e1e2e;
+	background-color: rgba(32, 32, 32, 0.7);
 	border-radius: 15px;
 }
 
@@ -145,7 +145,7 @@
 /***-------------------------------      • Power Menu Widget •      --------------------------------***/
 
 .power-menu-popup {
-	background: var(--crust);
+	background: rgba(32, 32, 32, 0.5);
 	border-radius: 8px;
 }
 
@@ -239,7 +239,7 @@
 .weather-widget .icon {}
 
 .weather-card {
-	background-color: var(--mantle);
+	background-color: rgba(32, 32, 32, 0.5);
 }
 .weather-card-today {
 	border-radius: 8px;
@@ -307,7 +307,7 @@
 }
 
 .calendar {
-	background-color: var(--mantle);
+	background-color: rgba(32, 32, 32, 0.5);
 }
 .calendar .calendar-table,
 .calendar .calendar-table::item {
@@ -380,7 +380,7 @@
 	border: none;
 }
 .audio-menu {
-	background-color: rgba(17, 17, 27, 0.4);
+	background-color: rgba(32, 32, 32, 0.5);
 }
 .audio-container .device {
 	background-color: transparent;
@@ -423,7 +423,7 @@
     padding: 0 6px 0 6px;
 }
 .disk-group {
-    background-color:rgba(17, 17, 27, 0.4);
+    background-color:rgba(32, 32, 32, 0.5);
 }
 .disk-group-row {
     min-width: 220px;
@@ -543,9 +543,9 @@ color: rgb(203, 166, 247);
 
 
 .widget {
-   border-radius: 8px;
+    border-radius: 8px;
     margin: 8px 4px;
-    background-color: var(--surface0);
+    background-color: rgba(32, 32, 32, 0.6) !important;
 }
 
 
@@ -788,7 +788,7 @@ Example: "Windows Media" becomes "windows-media" */
 }
 /* Pomodoro menu styling */
 .pomodoro-menu {
-    background-color: rgba(17, 17, 27, 0.2);
+    background-color: rgba(32, 32, 32, 0.5);
     border-radius: 8px;
 }
 .pomodoro-menu .header {
@@ -928,4 +928,3 @@ Example: "Windows Media" becomes "windows-media" */
   display: inline-block;
   margin: auto;
 }
-
